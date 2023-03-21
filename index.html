@@ -51,11 +51,13 @@ text-align: center;
  }
  .container{height: 200px;
  position: relative}
- .vertical-center{margin: 0;
- position: absolute;
- top: 50%;
- -ms-transform: translateY(-50%);
- transform: translateY(-50%)}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 </style>
 </head>
 <h1>
@@ -63,7 +65,7 @@ Hellooo!</h1>
 
 <script src="script.js"></script>
 <div class="container">
-<div class="vertical-center">
+<div class="center">
 <button type="submit" onclick="window.location.href = 'https://www.instagram.com/maryjee_/'">
   Instagram
 </button>
