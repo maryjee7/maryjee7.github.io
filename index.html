@@ -6,14 +6,34 @@
   <meta name="viewport" content="width=device-width">
   <title>Mary Dzhibladze</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <style> button {
-    font-size: 12px
+  <style> button1 {
+    font-size: 18px
     text-align: center;
     background-color: #C0C0C0;
     color:white;
-    padding: 14px 40 px;
+    padding: 40px;
+    width: 200px;
     border: 3px solid #808080;
-} </style>
+    cursor: pointer;
+    transition: all 0.4s;
+}
+button1:hover {
+background-color: #808080;
+}
+button2 {
+    font-size: 18px
+    text-align: center;
+    background-color: #FFD700;
+    color:white;
+    padding: 40px;
+    width: 200px;
+    border: 3px solid #FF0300;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+button2:hover {
+background-color: #008000;
+}</style>
 </head>
 
 <body>
@@ -22,7 +42,9 @@
   
 </body>
 <form action="https://www.instagram.com/maryjee_/">
-         <button type="submit">Instagram</button>
+         <button1 type="submit">Instagram</button1>
+
+         <button1 type="button" onclick="alert('Hello there! :D')">Hello</button1>
 
 </form>
 </html>
