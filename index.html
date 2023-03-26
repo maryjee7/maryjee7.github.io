@@ -79,11 +79,23 @@ text-align: center;
           What's your favorite food? <input type='text' name='favfood'><br>
           <input type='submit' value='Continue'>
       </form>
-<script type = "text/javascript" src="functions.js"></script>
-    <button onclick="greet()">Continue</button>
-      <h2>Hello, {0}!</h2>
-    {1}
-    <div id="my-div"></div>
+      <p id="java"></p>
+    <script type = "text/javascript" >
+  function greet() {
+
+  var username=request.args.get('username','');
+  var favfood=request.args.get('favfood','');
+  if username==''{
+    var username='World';}
+  if favfood==''{
+    var msg='You did not tell me your favorite food.';}
+  else{
+    var msg='I like ',favfood,' too.';}
+
+  return ("Hello, ",username,"I also like", msg);
+    }
+
+</script>    <button3 type="submit" onclick="greet()">Continue</button3>
   </body>
 <script src="script.js"></script>
 <div class="container">
