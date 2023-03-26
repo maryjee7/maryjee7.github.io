@@ -72,7 +72,19 @@ text-align: center;
 </style>
 </head>
 <h1>More!</h1>
-
+<body>
+      <h2>Welcome to the Greeter</h2>
+      <form action="/greet">
+          What's your name? <input type='text' name='username'><br>
+          What's your favorite food? <input type='text' name='favfood'><br>
+          <input type='submit' value='Continue'>
+      </form>
+<script type = "text/javascript" src="functions.js"></script>
+    <button onclick="greet()">Continue</button>
+      <h2>Hello, {0}!</h2>
+    {1}
+    <div id="my-div"></div>
+  </body>
 <script src="script.js"></script>
 <div class="container">
 <div class="center">
