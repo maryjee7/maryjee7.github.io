@@ -72,31 +72,7 @@ text-align: center;
 </style>
 </head>
 <h1>More!</h1>
-<body>
-      <h2>Welcome to the Greeter</h2>
-      <form action="/greet">
-          What's your name? <input type='text' name='username'><br>
-          What's your favorite food? <input type='text' name='favfood'><br>
-          <input type='submit' value='Continue'>
-      </form>
-      <p id="java"></p>
-    <script type = "text/javascript" >
-  function greet() {
 
-  var username=request.args.get('username','');
-  var favfood=request.args.get('favfood','');
-  if username==''{
-    var username='World';}
-  if favfood==''{
-    var msg='You did not tell me your favorite food.';}
-  else{
-    var msg='I like ',favfood,' too.';}
-
-  return ("Hello, ",username,"I also like", msg);
-    }
-
-</script>    <button3 type="submit" onclick="greet()">Continue</button3>
-  </body>
 <script src="script.js"></script>
 <div class="container">
 <div class="center">
