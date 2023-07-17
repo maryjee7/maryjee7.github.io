@@ -73,8 +73,10 @@ overflow: hidden;
           display: block;
           font-size: 17px;
           text-decoration: none;
+          padding: 17px;
           float: left;
-          
+          margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
           
          }
 .topnav a:hover{background-color:#cbd0c8;
@@ -89,3 +91,5 @@ overflow: hidden;
 .topnav .icon {
   display: none;
 }
+
+
