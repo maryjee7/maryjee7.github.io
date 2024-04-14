@@ -57,7 +57,7 @@ p1{font-family: 'Lucida Sans';
 }
 .image-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: column;
 }
 .row{
 
