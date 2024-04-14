@@ -85,7 +85,7 @@ p1{font-family: 'Lucida Sans';
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.column:hover .overlay {
   opacity: 1;
 }
 
