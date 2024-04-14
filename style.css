@@ -67,7 +67,8 @@ p1{font-family: 'Lucida Sans';
  
   .img{
 
-    width:30%;
+    width:30px;
+    height: auto;
     margin:5px;
   }
 
