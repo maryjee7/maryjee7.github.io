@@ -65,5 +65,10 @@ p1{font-family: 'Lucida Sans';
   justify-content: space-between; 
 }
  
- 
+.image{
+
+  width:700px;
+  height: auto;
+  margin:5px;
+}
 
