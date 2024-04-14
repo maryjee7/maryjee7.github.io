@@ -59,6 +59,7 @@ p1{font-family: 'Lucida Sans';
 .row{
 
   display: flex;
+  padding: 5px;
 }
 .column {
   flex: 33.33%;
