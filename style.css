@@ -59,23 +59,15 @@ p1{font-family: 'Lucida Sans';
   display: flex;
   justify-content: space-between;
 }
-  img1{width: 300px;
-    height: 200px;
-    border: 2px solid white;
-    align-self: flex-start;
+.row{
 
-  }
-  img2{width: 300px;
-    height: 200px;
-    border: 2px solid white;
-    align-self: center;
+  display: flex;
+  justify-content: space-between; 
+}
+ 
+  .img{
 
+    width:30%;
+    margin:5px;
   }
-  img2{width: 300px;
-    height: 200px;
-    border: 2px solid white;
-    align-self: flex-end;
-
-  }
-  
 
