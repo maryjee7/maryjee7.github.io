@@ -18,9 +18,10 @@ text-align: center;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);}
-  footer{margin: 0;
+  
+footer{margin: 0;
   position: absolute;
-  bottom: -60%;
+  bottom: -40%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);} 
