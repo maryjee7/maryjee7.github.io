@@ -5,7 +5,7 @@ html {
 
 
 h1{  margin: 30px;
-font-family: arial;
+font-family: "Google Sans", Arial, sans-serif;
 text-align: center;
  }
  .container{height: 200px;
@@ -36,7 +36,7 @@ overflow: hidden;
           padding: 17px;
           float: left;
           margin: 0;
-  font-family: 'Lucida Sans';
+  font-family: "Google Sans", Arial, sans-serif;
           
          }
 .topnav a:hover{background-color:#cbd0c8;
@@ -52,7 +52,7 @@ overflow: hidden;
   display: none;
 }
 
-p1{font-family: 'Lucida Sans';
+p1{font-family: "Google Sans", Arial, sans-serif;
   
 }
 
