@@ -20,7 +20,7 @@ text-align: center;
   transform: translate(-50%, -50%);}
   footer{margin: 0;
   position: absolute;
-  bottom: -90%;
+  bottom: -60%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);} 
