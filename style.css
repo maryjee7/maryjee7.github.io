@@ -8,8 +8,9 @@ h1{  margin: 30px;
 font-family: "Google Sans", Arial, sans-serif;
 text-align: center;
  }
- .container{height: 100px;
- position: relative}
+ .container{
+    flex: 1;
+}
 .center {
   margin: 0;
   position: absolute;
