@@ -35,36 +35,26 @@ text-align: center;
     margin-top: 1vw;
   }
   
-nav {
-  display: flex;
-  gap: 30px;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  font-size: 1rem;
-  position: relative;
-}
-
-nav a.active, nav a:hover {
-  color: #000;
-}
-
-nav a:after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 1px;
-  bottom: -3px;
-  left: 0;
-  background-color: #000;
-  transition: width 0.3s;
-}
-
-nav a:hover:after, nav a.active:after {
-  width: 100%;
-}
+  nav {
+    display: flex;
+    gap: 20px; /* spacing between links */
+  }
+  
+  nav a {
+    color: black;       /* solid black text */
+    text-decoration: none; /* no underline */
+    font-size: 1rem;    /* normal font size */
+  }
+  
+  nav a:hover, nav a.active {
+    color: black;       /* same black color on hover/active */
+    text-decoration: none; /* no underline on hover */
+  }
+  
+  nav a:after {
+    content: none; /* disable underline effect */
+  }
+  
 
 
 .row{
