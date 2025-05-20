@@ -71,7 +71,27 @@ a img:hover {
   color: #333;
   text-align: left;
 }
-    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 20px;
+      }
+      
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      nav {
+        margin-top: 20px;
+        gap: 20px;
+      }
+      
+      .cert-container,
+      .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+    }
    
     /* footer div {
   display: flex;
@@ -90,6 +110,7 @@ a img:hover {
   <a href="#Gallery">Gallery</a>
   <a href="#portfolio">Portfolio</a>
 </div> -->
+<div class="container">
 <header>
   <a href="#" class="site-title">Mary Dzhibladze</a>
   <nav>
@@ -110,26 +131,22 @@ a img:hover {
 
 
 
-<div class="main-content">
-  
 
-
-
-
-
-</div> 
 </body>
-<footer><h2>Let's connect!</h2>
 
-  <div style="display: flex; gap: 2vw; align-items: center; margin-top: 1vw;">
+<footer>
+  <div class="social-links">
     <a href="https://www.linkedin.com/in/mary-dzhibladze/" target="_blank">
-      <img src="linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png__1_-removebg-preview.png" alt="LinkedIn" style="width:4vw; height:4vw; border-radius: 10%; transition: transform 0.3s;">
+      <img src="linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png__1_-removebg-preview.png" alt="LinkedIn">
     </a>
     <a href="https://www.instagram.com/maryjee_/" target="_blank">
-      <img src="Instagram_icon.png.jpeg" alt="Instagram" style="width:4vw; height:4vw; border-radius: 10%; transition: transform 0.3s;">
+      <img src="Instagram_icon.png.jpeg" alt="Instagram">
     </a>
     <a href="mailto:marydhibb@gmail.com" target="_blank">
-      <img src="gmail-icon-2048x2048-73rnz1b9.png" alt="Email Me" style="width:4vw; height:4vw; border-radius: 10%; transition: transform 0.3s;">
+      <img src="gmail-icon-2048x2048-73rnz1b9.png" alt="Email Me">
     </a>
-  </div></footer>
+  </div>
+  <p style="margin-top: 20px; font-size: 0.9rem;">© 2025 Mary Dzhibladze</p>
+</footer>
+</div>
 </html>
