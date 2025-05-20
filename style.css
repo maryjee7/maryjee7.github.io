@@ -37,7 +37,7 @@ text-align: center;
   
   
 
-.topnav{ background-color: #b7c0b2;
+/* .topnav{ background-color: #b7c0b2;
 overflow: hidden;
   
 }
@@ -63,9 +63,9 @@ overflow: hidden;
 
 .topnav .icon {
   display: none;
-}
+} */
  /* Navigation bar */
- /* .topnav {
+ .topnav {
   background-color: #304574;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
@@ -92,7 +92,7 @@ overflow: hidden;
 .topnav a.active {
   background-color: #78a06c;
   color: white;
-} */
+}
 
 p1{font-family: "Google Sans", Arial, sans-serif;
   
