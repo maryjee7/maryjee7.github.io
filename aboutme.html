@@ -561,15 +561,39 @@
         height: 180px;
       }
     }
+    .topnav {
+  background-color: #304574;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 24px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #1a2d4a;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #78a06c;
+  color: white;
+}
   </style>
 </head>
 <body>
   <div class="topnav">
     <a class="active" href="https://maryjee7.github.io/">Home</a>
     <a class="active" href="aboutme.html">About Me</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#portfolio">Portfolio</a>
-  </div>
+  <a href="#Gallery">Gallery</a>
+  <a href="#portfolio">Portfolio</a>
+</div>
   
   <div class="main-content">
     <section id="about">
