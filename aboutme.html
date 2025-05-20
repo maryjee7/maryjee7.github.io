@@ -65,6 +65,41 @@
 .connect-abroad p {
   margin-bottom: 15px;
 }
+.photo-grid {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f9f6;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.photo-grid h2 {
+  text-align: center;
+  color: #304574;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.photo-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 0;
+}
+
+.photo-grid-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  object-fit: cover;
+}
+
+.photo-grid-container img:hover {
+  transform: scale(1.05);
+}
+
 
  
   
@@ -140,12 +175,23 @@
   <p>
     Huge thanks to everyone who made this journey possible—including the <strong>UGA Office of Global Engagement</strong> and <strong>The University of Georgia</strong>. I’m excited to see where these new connections lead! 🌟
   </p>
+  <p style="text-align: center;">
+    <a href="https://www.linkedin.com/posts/mary-dzhibladze_just-wrapped-up-an-incredible-week-in-london-activity-7305707856563961857-aY94" target="_blank">📎 Read the full post on LinkedIn</a>
+  </p>
 </section>
-<p style="text-align: center;">
-  <a href="https://www.linkedin.com/posts/mary-dzhibladze_just-wrapped-up-an-incredible-week-in-london-activity-7305707856563961857-aY94" target="_blank">📎 Read the full post on LinkedIn</a>
-</p>
 
 
+<section class="photo-grid">
+  <h2>Photo Gallery</h2>
+  <div class="photo-grid-container">
+    <img src="IMG_1234.WEBP" alt="Gallery Image 1">
+    <img src="IMG_1240.WEBP" alt="Gallery Image 2">
+    <img src="IMG_1243.WEBP" alt="Gallery Image 3">
+    <img src="IMG_1244.WEBP" alt="Gallery Image 4">
+    <img src="IMG_5659 3.JPEG" alt="Gallery Image 5">
+    <img src="8304831e-8417-411f-949e-105800face69.JPG" alt="Gallery Image 6">
+  </div>
+</section>
 
 <footer><h2>Let's connect!</h2>
 
