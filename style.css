@@ -27,6 +27,14 @@ text-align: center;
     align-items: center;
     justify-content: center;
   }
+  footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 1vw;
+  }
+  
   
 
 .topnav{ background-color: #b7c0b2;
