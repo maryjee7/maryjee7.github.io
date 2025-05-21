@@ -35,6 +35,19 @@ text-align: center;
     margin-top: 1vw;
   }
   
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+  .site-title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+  }
   nav {
     display: flex;
     gap: 20px; /* spacing between links */
