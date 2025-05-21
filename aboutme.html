@@ -6,7 +6,7 @@
   <title>Mary Dzhibladze</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 
-  <!-- <style>
+  <style>
     /* Base styles */
     body {
       font-family: "Google Sans", Arial, sans-serif;
@@ -183,201 +183,8 @@
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
       }
     }
-  </style> -->
-  <style>
-    /* Base styles */
-    body {
-      font-family: "Google Sans", Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-      color: #333;
-      line-height: 1.6;
-    }
-    
-    /* Container for centered content */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 40px;
-    }
-    
-    /* Main content */
-    .main-content {
-      margin: 50px 0;
-    }
-    
-    /* Profile section */
-    .profile {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 80px;
-    }
-    
-    .profile-image {
-      width: 100%;
-      max-width: 800px;
-      border-radius: 4px;
-      margin-bottom: 40px;
-    }
-    
-    .bio {
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    
-    .bio p {
-      margin-bottom: 20px;
-      font-size: 1.05rem;
-      line-height: 1.7;
-    }
-    
-    /* Sections */
-    section {
-      margin-bottom: 80px;
-    }
-    
-    section h2 {
-      font-size: 1.6rem;
-      font-weight: 500;
-      margin-bottom: 30px;
-      color: #000;
-    }
-    
-    /* Lists */
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-    ul li {
-      margin-bottom: 15px;
-      line-height: 1.6;
-    }
-    
-    ul a {
-      color: #333;
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.3s;
-    }
-    
-    ul a:hover {
-      border-color: #333;
-    }
-    
-    /* Certifications and Coursework Layout */
-    .combined-section {
-      display: flex;
-      gap: 40px;
-      flex-wrap: nowrap;
-    }
-    
-    /* Certifications */
-    #certifications {
-      flex: 0 0 200px; /* Fixed width of 200px, doesn't grow or shrink */
-    }
-    
-    .cert-container {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-    }
-    
-    .cert-container a {
-      display: block;
-      width: 200px;
-    }
-    
-    .cert-container img {
-      width: 100%;
-      height: auto;
-      border-radius: 4px;
-      transition: opacity 0.3s;
-    }
-    
-    .cert-container img:hover {
-      opacity: 0.9;
-    }
-    
-    /* Coursework */
-    #coursework {
-      flex: 1;
-      min-width: 0; /* This is important for flex items to prevent overflow */
-    }
-    
-    /* Gallery */
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 20px;
-    }
-    
-    .gallery img {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-      border-radius: 4px;
-      transition: opacity 0.3s;
-    }
-    
-    .gallery img:hover {
-      opacity: 0.9;
-    }
-    
-    /* Social links */
-    .social-links {
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      margin-top: 50px;
-    }
-    
-    .social-links a img {
-      width: 24px;
-      height: 24px;
-      opacity: 0.8;
-      transition: opacity 0.3s;
-    }
-    
-    .social-links a img:hover {
-      opacity: 1;
-    }
-    
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 50px 0;
-      color: #777;
-      font-size: 0.9rem;
-    }
-    
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      .container {
-        padding: 0 20px;
-      }
-    }
-    
-    /* Only change to single column at very small screens */
-    @media (max-width: 480px) {
-      .combined-section {
-        flex-direction: column;
-      }
-      
-      .cert-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      
-      .cert-container a {
-        width: 150px;
-      }
-    }
   </style>
+  
 </head>
 <body>
   <div class="container">
@@ -402,7 +209,7 @@
         </div>
       </section>
       
-      <!-- <section id="certifications">
+      <section id="certifications">
         <h2>Certifications</h2>
         <div class="cert-container">
           <a href="https://www.credly.com/badges/06cccece-bdc0-4ddd-9912-606b38268aac" target="_blank">
@@ -437,45 +244,8 @@
           <li>AP Computer Science A</li>
           <li>Cloud Computing (AWS focus)</li>
         </ul>
-      </section> -->
-      
-      <div class="combined-section">
-        <section id="certifications">
-          <h2>Certifications</h2>
-          <div class="cert-container">
-            <a href="https://www.credly.com/badges/06cccece-bdc0-4ddd-9912-606b38268aac" target="_blank">
-              <img src="image.png" alt="Certification Badge 1">
-            </a>
-      
-            <a href="https://www.credly.com/badges/3caee1a9-0a38-4a61-b519-775d6ae6b808" target="_blank">
-              <img src="ITS-Badges_Software-Development_1200px.png" alt="Certification Badge 2">
-            </a>
-      
-            <a href="https://www.credly.com/badges/17ec1654-fe8d-4f32-bfb5-54a74a449381" target="_blank">
-              <img src="image (1).png" alt="Certification Badge 3">
-            </a>
-          </div>
-        </section>
-      
-        <section id="coursework">
-          <h2>Relevant Coursework</h2>
-          
-          <h3 style="font-size: 1.1rem; font-weight: 500; margin-bottom: 15px;">Freshman Year (2024-25):</h3>
-          <ul>
-            <li>Data Structures <a href="https://computing.uga.edu/courses/content/csci-2720" target="_blank">(CSCI-2720)</a></li>
-            <li>Theory of Computing <a href="https://www.cs.uga.edu/courses/content/csci-2670" target="_blank">(CSCI-2670)</a></li>
-            <li>Linear Algebra <a href="https://www.math.uga.edu/courses/content/math3300" target="_blank">(MATH-3300H)</a></li>
-            <li>Software Development <a href="https://computing.uga.edu/courses/content/csci-1302" target="_blank">(CSCI-1302)</a></li>
-            <li>Discrete Mathematics <a href="https://www.math.uga.edu/courses/content/math2610" target="_blank">(CSCI-2610)</a></li>
-          </ul>
-          
-          <h3 style="font-size: 1.1rem; font-weight: 500; margin: 25px 0 15px;">High School:</h3>
-          <ul>
-            <li>AP Calculus 1 & 2</li>
-            <li>AP Computer Science A</li>
-            <li>Cloud Computing (AWS focus)</li>
-          </ul>
-        </section>
+      </section>
+   
       </div>
       <section id="gallery">
         <h2>Gallery</h2>
